@@ -30,15 +30,12 @@ echo "installing homebrew"
 
 echo "brew installing stuff"
 # hub: a github-specific version of git
-# libdvdcss: makes handbreak capable of ripping DVDs
 # ripgrep: rg is faster than alternatives
-# imagemagick: eventually I will need this for something
-# ffmpeg: eventually I'll need this for something
+# watchman: file watching utility
 # tree: really handy for listing out directories in text
 # bat: A cat(1) clone with syntax highlighting and Git integration.
 # switchaudio-osx: allows me to switch the audio device via the command line
-brew install git hub libdvdcss ripgrep imagemagick watchman tree bat \
-delta switchaudio-osx
+brew install git hub ripgrep watchman tree bat switchaudio-osx
 
 echo "installing node (via n-install)"
 curl -L https://git.io/n-install | bash
